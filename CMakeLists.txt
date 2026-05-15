@@ -12,3 +12,4 @@ add_subdirectory(Code_library)
 target_link_libraries(Code_library_run Code_library)
 
 add_subdirectory(Google_tests)
+add_subdirectory(Google_tests/lib)

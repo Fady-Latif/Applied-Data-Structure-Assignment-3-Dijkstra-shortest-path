@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\Code_library_run.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\Code_library_run.dir/objects.a @CMakeFiles\Code_library_run.dir\objects1.rsp
+C:\msys64\ucrt64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Code_library_run.dir/objects.a -Wl,--no-whole-archive -o Code_library_run.exe -Wl,--out-implib,libCode_library_run.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Code_library_run.dir\linkLibs.rsp
